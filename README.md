@@ -33,25 +33,19 @@ Every chart and analysis step is part of developing a **data-oriented mindset**,
 
 ## Project Structure
 
-```text
-stock_analysis/
-├─ STOCKS/             # Raw CSV files from World Data Bank
-├─ images/             # Saved charts (output of visualize_data.py)
-├─ prepare_data.py     # Clean and aggregate stock data
-├─ visualize_data.py   # Generate charts
-├─ requirements.txt    # Python dependencies
-└─ README.md           # This file
+The repository contains:
 
+- `STOCKS/` — CSV data from World Data Bank  
+- `images/` — Saved charts  
+- Python scripts: `prepare_data.py` and `visualize_data.py`  
+- `requirements.txt`  
+- `README.md`
 
 ---
 
-
-
-
 ## ⚙️ How to Run
 
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-
-
+```bash
+pip install -r requirements.txt
+python prepare_data.py
+python visualize_data.py
