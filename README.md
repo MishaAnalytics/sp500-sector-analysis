@@ -1,34 +1,52 @@
 # sp500-sector-analysis
 A Python project analyzing S&amp;P 500 sector performance using open stock market data.
 
-It analyzes the performance of four major market sectors (**Consumer, Energy, Finance, and Tech**) compared to the **S&P 500 index**.  
-It demonstrates data cleaning, aggregation, and visualization using Python, and reflects my personal journey in developing data science skills.
+It analyzes four major market sectors (**Consumer, Energy, Finance, Tech**) and comparing them to the **S&P 500 index**.  
+It loads real-world financial data from **World Data Bank**, cleans and aggregates it, and produces visual comparisons using Matplotlib.
 
 ---
 
-## 🎯 Project Goal
+## 🧠 What I Learned
 
-The main goal of this project is to explore how different market sectors correlate with the S&P 500 over time.  
-Through this project, I practiced:
-
-- Loading and cleaning real-world CSV financial data  
-- Aggregating sector averages  
-- Visualizing trends using Matplotlib  
-- Structuring a small-scale data analysis pipeline
-
-All financial data was sourced from **World Data Bank**, ensuring the datasets are reliable and representative of real market trends.
-
-This work helped me improve my analytical thinking, Python programming, and understanding of financial datasets.
+- Handling real-world CSV data with **Pandas**  
+- Aggregating sector averages and working with time series  
+- Visualizing trends and comparisons using **Matplotlib**  
+- Structuring a small, reproducible analysis workflow  
+- Attention to detail in data cleaning, numeric conversions, and plotting  
 
 ---
 
-## 👨‍💻 Personal Journey
+## 🌱 Personal Growth Note
 
-I started learning Python and data analysis in [year/semester], motivated by a desire to understand real-world financial markets.  
-This project represents a milestone where I combined programming, data manipulation, and visualization into a cohesive workflow.  
+This project reflects my ongoing journey in **data science and finance**.  
+I started learning Python to better understand real-world financial markets, and this project represents a milestone in applying theory to practice.  
 
-It reflects:
+It helped me:
 
-- My growing skills in **Python** and **data manipulation**  
-- Ability to work with **real datasets** from reputable sources  
-- My initiative to create reproducible analysis that can be shared and understood by others
+- Strengthen analytical and logical thinking  
+- Work confidently with real datasets from reputable sources  
+- Build reproducible and shareable results  
+
+Every chart and analysis step is part of developing a **data-oriented mindset**, which I plan to carry forward into my university studies and future projects in econometrics and finance.
+
+---
+
+## 📂 Project Structure
+stock_analysis/
+├─ STOCKS/ # Raw CSV files from World Data Bank
+├─ images/ # Saved charts (output of visualize_data.py)
+├─ prepare_data.py # Clean and aggregate stock data
+├─ visualize_data.py # Generate charts
+├─ requirements.txt # Python dependencies
+└─ README.md # This file
+
+
+---
+
+## ⚙️ How to Run
+
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+
