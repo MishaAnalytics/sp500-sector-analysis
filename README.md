@@ -50,4 +50,5 @@ pip install -r requirements.txt
 python prepare_data.py
 python visualize_data.py
 
-> All charts will be automatically generated and saved in the `images/` folder when you run `visualize_data.py`.
+```markdown
+> Note: All charts are generated automatically and saved in the `images/` folder when you run `visualize_data.py`.
