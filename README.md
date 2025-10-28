@@ -46,6 +46,9 @@ The repository contains:
 ## ⚙️ How to Run
 
 
-`pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
 python prepare_data.py
-python visualize_data.py`
+python visualize_data.py
+```
+Note: All charts are generated automatically and saved in the `images/` folder when you run `visualize_data.py`.
