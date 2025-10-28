@@ -31,14 +31,16 @@ Every chart and analysis step is part of developing a **data-oriented mindset**,
 
 ---
 
-## 📂 Project Structure
+## Project Structure
+
+```text
 stock_analysis/
-├─ STOCKS/ # Raw CSV files from World Data Bank
-├─ images/ # Saved charts (output of visualize_data.py)
-├─ prepare_data.py # Clean and aggregate stock data
-├─ visualize_data.py # Generate charts
-├─ requirements.txt # Python dependencies
-└─ README.md # This file
+├─ STOCKS/             # Raw CSV files from World Data Bank
+├─ images/             # Saved charts (output of visualize_data.py)
+├─ prepare_data.py     # Clean and aggregate stock data
+├─ visualize_data.py   # Generate charts
+├─ requirements.txt    # Python dependencies
+└─ README.md           # This file
 
 
 ---
