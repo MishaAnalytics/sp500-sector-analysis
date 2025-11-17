@@ -34,10 +34,11 @@ Every chart and analysis step is part of developing a **data-oriented mindset**,
 
 ## ⚙️ How to Run
 
-All of  the demonstrations of running this  code are in `images/` folder.
+- All of  the demonstrations of running this  code are in `images/` folder.
 
 You can reproduce the analysis locally in just a few steps:
 
+- Easy  instruction:
 ```bash
 # 1. Install dependencies
 pip install -r requirements.txt
