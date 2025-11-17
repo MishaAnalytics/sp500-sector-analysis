@@ -4,6 +4,7 @@ A Python project analyzing S&amp;P 500 sector performance using open stock marke
 It analyzes four major market sectors (**Consumer, Energy, Finance, Tech**) and comparing them to the **S&P 500 index**.  
 It loads real-world financial data from **World Data Bank**, cleans and aggregates it, and produces visual comparisons using Matplotlib.
 
+
 ---
 
 ## 🧠 What I Learned
@@ -33,6 +34,7 @@ Every chart and analysis step is part of developing a **data-oriented mindset**,
 
 ## ⚙️ How to Run
 
+All of  the demonstrations of running this  code are in `images/` folder.
 
 You can reproduce the analysis locally in just a few steps:
 
@@ -47,4 +49,4 @@ python prepare_data.py
 python visualize_data.py
 
 ```
-Note: All charts are generated automatically and saved in the `images/` folder when you run `visualize_data.py`.
+Note: All charts are generated automatically and saved in the `images/` folder when you run `visualize_data.py`. 
