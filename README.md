@@ -31,18 +31,6 @@ Every chart and analysis step is part of developing a **data-oriented mindset**,
 
 ---
 
-## Project Structure
-
-The repository contains:
-
-- `STOCKS/` — CSV data from World Data Bank  
-- `images/` — Saved charts  
-- Python scripts: `prepare_data.py` and `visualize_data.py`  
-- `requirements.txt`  
-- `README.md`
-
----
-
 ## ⚙️ How to Run
 
 
